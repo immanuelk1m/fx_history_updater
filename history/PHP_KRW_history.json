@@ -1,0 +1,11 @@
+{
+  "currency_pair": "PHP/KRW",
+  "lastUpdated": "2025-03-25T08:19:00.000Z",
+  "rates": [
+    {
+      "currency_pair": "PHP/KRW",
+      "rate": 25.54,
+      "timestamp": "2025-03-25T00:00:00.000Z"
+    }
+  ]
+}

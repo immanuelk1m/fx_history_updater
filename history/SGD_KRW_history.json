@@ -1,0 +1,756 @@
+{
+  "currency_pair": "SGD/KRW",
+  "lastUpdated": "2025-03-25T08:18:51.000Z",
+  "rates": [
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1017.51,
+      "timestamp": "2024-08-27T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1019.15,
+      "timestamp": "2024-08-28T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1025.41,
+      "timestamp": "2024-08-29T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1023.17,
+      "timestamp": "2024-08-30T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1023.3,
+      "timestamp": "2024-09-02T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1023.35,
+      "timestamp": "2024-09-03T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1025.46,
+      "timestamp": "2024-09-04T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1023.68,
+      "timestamp": "2024-09-05T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1025.08,
+      "timestamp": "2024-09-06T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1026.44,
+      "timestamp": "2024-09-09T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1027.41,
+      "timestamp": "2024-09-10T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1029.88,
+      "timestamp": "2024-09-11T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1026.5,
+      "timestamp": "2024-09-12T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1026.88,
+      "timestamp": "2024-09-13T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1024.67,
+      "timestamp": "2024-09-16T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1018.06,
+      "timestamp": "2024-09-17T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1020.85,
+      "timestamp": "2024-09-18T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1020.18,
+      "timestamp": "2024-09-19T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1027.16,
+      "timestamp": "2024-09-20T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1031.53,
+      "timestamp": "2024-09-23T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1033.08,
+      "timestamp": "2024-09-24T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1033.08,
+      "timestamp": "2024-09-25T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1034.4,
+      "timestamp": "2024-09-26T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1022.87,
+      "timestamp": "2024-09-27T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1022.6,
+      "timestamp": "2024-09-30T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1023.76,
+      "timestamp": "2024-10-01T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1028.32,
+      "timestamp": "2024-10-02T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1024.72,
+      "timestamp": "2024-10-03T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1029.11,
+      "timestamp": "2024-10-04T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1031.54,
+      "timestamp": "2024-10-07T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1029.59,
+      "timestamp": "2024-10-08T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1028.34,
+      "timestamp": "2024-10-09T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1027.28,
+      "timestamp": "2024-10-10T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1033.49,
+      "timestamp": "2024-10-11T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1031.04,
+      "timestamp": "2024-10-14T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1037.62,
+      "timestamp": "2024-10-15T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1040.93,
+      "timestamp": "2024-10-16T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1038.67,
+      "timestamp": "2024-10-17T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1042.34,
+      "timestamp": "2024-10-18T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1044.89,
+      "timestamp": "2024-10-21T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1045.36,
+      "timestamp": "2024-10-22T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1045.87,
+      "timestamp": "2024-10-23T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1041.03,
+      "timestamp": "2024-10-24T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1044.49,
+      "timestamp": "2024-10-25T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1048.6,
+      "timestamp": "2024-10-28T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1044.89,
+      "timestamp": "2024-10-29T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1045.01,
+      "timestamp": "2024-10-30T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1042.3,
+      "timestamp": "2024-10-31T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1040.36,
+      "timestamp": "2024-11-01T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1043.42,
+      "timestamp": "2024-11-04T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1042.01,
+      "timestamp": "2024-11-05T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1049.06,
+      "timestamp": "2024-11-06T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1049.93,
+      "timestamp": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1038.9,
+      "timestamp": "2024-11-08T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1052.49,
+      "timestamp": "2024-11-11T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1050.67,
+      "timestamp": "2024-11-12T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1050.55,
+      "timestamp": "2024-11-13T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1041.7,
+      "timestamp": "2024-11-14T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1042.61,
+      "timestamp": "2024-11-15T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1038.86,
+      "timestamp": "2024-11-18T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1038.13,
+      "timestamp": "2024-11-19T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1041.39,
+      "timestamp": "2024-11-20T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1040.9,
+      "timestamp": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1039.48,
+      "timestamp": "2024-11-22T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1044.85,
+      "timestamp": "2024-11-25T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1034.48,
+      "timestamp": "2024-11-26T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1036.57,
+      "timestamp": "2024-11-27T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1037.29,
+      "timestamp": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1038.77,
+      "timestamp": "2024-11-29T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1039.71,
+      "timestamp": "2024-12-02T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1041.68,
+      "timestamp": "2024-12-03T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1051.85,
+      "timestamp": "2024-12-04T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1049.91,
+      "timestamp": "2024-12-05T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1055.44,
+      "timestamp": "2024-12-06T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1061.87,
+      "timestamp": "2024-12-09T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1064.35,
+      "timestamp": "2024-12-10T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1069.06,
+      "timestamp": "2024-12-11T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1063.22,
+      "timestamp": "2024-12-12T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1060.99,
+      "timestamp": "2024-12-13T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1063.98,
+      "timestamp": "2024-12-16T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1060.89,
+      "timestamp": "2024-12-17T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1062.61,
+      "timestamp": "2024-12-18T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1064.79,
+      "timestamp": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1055.47,
+      "timestamp": "2024-12-20T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1066.11,
+      "timestamp": "2024-12-23T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1062.93,
+      "timestamp": "2024-12-24T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1068.42,
+      "timestamp": "2024-12-25T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1072.49,
+      "timestamp": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1078.74,
+      "timestamp": "2024-12-27T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1084.56,
+      "timestamp": "2024-12-30T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1080.77,
+      "timestamp": "2024-12-31T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1077.14,
+      "timestamp": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1074.51,
+      "timestamp": "2025-01-03T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1070.43,
+      "timestamp": "2025-01-06T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1071.69,
+      "timestamp": "2025-01-07T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1062.24,
+      "timestamp": "2025-01-08T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1065.69,
+      "timestamp": "2025-01-09T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1065.26,
+      "timestamp": "2025-01-10T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1074.58,
+      "timestamp": "2025-01-13T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1068.2,
+      "timestamp": "2025-01-14T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1041.3,
+      "timestamp": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1057.2,
+      "timestamp": "2025-01-16T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1063.22,
+      "timestamp": "2025-01-17T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1065.64,
+      "timestamp": "2025-01-20T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1059.47,
+      "timestamp": "2025-01-21T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1058.7,
+      "timestamp": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1058.39,
+      "timestamp": "2025-01-23T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1057.41,
+      "timestamp": "2025-01-24T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1058.53,
+      "timestamp": "2025-01-27T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1064.03,
+      "timestamp": "2025-01-28T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1068.13,
+      "timestamp": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1069.58,
+      "timestamp": "2025-01-30T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1065.43,
+      "timestamp": "2025-01-31T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1064.53,
+      "timestamp": "2025-02-03T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1072.83,
+      "timestamp": "2025-02-04T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1072.39,
+      "timestamp": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1070.63,
+      "timestamp": "2025-02-06T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1068.05,
+      "timestamp": "2025-02-07T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1071.77,
+      "timestamp": "2025-02-10T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1071.62,
+      "timestamp": "2025-02-11T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1072.42,
+      "timestamp": "2025-02-12T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1073.44,
+      "timestamp": "2025-02-13T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1070.81,
+      "timestamp": "2025-02-14T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1074.51,
+      "timestamp": "2025-02-17T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1074.39,
+      "timestamp": "2025-02-18T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1072.7,
+      "timestamp": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1072.21,
+      "timestamp": "2025-02-20T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1073.64,
+      "timestamp": "2025-02-21T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1072.08,
+      "timestamp": "2025-02-24T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1066.74,
+      "timestamp": "2025-02-25T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1070.23,
+      "timestamp": "2025-02-26T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1072.34,
+      "timestamp": "2025-02-27T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1075.24,
+      "timestamp": "2025-02-28T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1081.83,
+      "timestamp": "2025-03-03T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1082.78,
+      "timestamp": "2025-03-04T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1085.78,
+      "timestamp": "2025-03-05T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1083.97,
+      "timestamp": "2025-03-06T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1085.32,
+      "timestamp": "2025-03-07T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1088.97,
+      "timestamp": "2025-03-10T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1092.9,
+      "timestamp": "2025-03-11T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1090.14,
+      "timestamp": "2025-03-12T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1087.24,
+      "timestamp": "2025-03-13T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1086.75,
+      "timestamp": "2025-03-14T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1086.62,
+      "timestamp": "2025-03-17T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1083.78,
+      "timestamp": "2025-03-18T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1087.86,
+      "timestamp": "2025-03-19T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1095.56,
+      "timestamp": "2025-03-20T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1097.66,
+      "timestamp": "2025-03-21T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1097.31,
+      "timestamp": "2025-03-24T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "SGD/KRW",
+      "rate": 1096.33,
+      "timestamp": "2025-03-25T00:00:00.000Z"
+    }
+  ]
+}

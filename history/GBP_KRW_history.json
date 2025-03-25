@@ -1,0 +1,756 @@
+{
+  "currency_pair": "GBP/KRW",
+  "lastUpdated": "2025-03-25T08:18:36.000Z",
+  "rates": [
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1750.03,
+      "timestamp": "2024-08-27T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1758.25,
+      "timestamp": "2024-08-28T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1763.33,
+      "timestamp": "2024-08-29T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1754.72,
+      "timestamp": "2024-08-30T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1754.82,
+      "timestamp": "2024-09-02T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1757.51,
+      "timestamp": "2024-09-03T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1757.45,
+      "timestamp": "2024-09-04T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1753.82,
+      "timestamp": "2024-09-05T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1755.76,
+      "timestamp": "2024-09-06T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1756.93,
+      "timestamp": "2024-09-09T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1753.78,
+      "timestamp": "2024-09-10T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1757.01,
+      "timestamp": "2024-09-11T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1746.16,
+      "timestamp": "2024-09-12T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1753.97,
+      "timestamp": "2024-09-13T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1746.47,
+      "timestamp": "2024-09-16T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1742.57,
+      "timestamp": "2024-09-17T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1741.95,
+      "timestamp": "2024-09-18T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1745.48,
+      "timestamp": "2024-09-19T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1763.21,
+      "timestamp": "2024-09-20T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1772.57,
+      "timestamp": "2024-09-23T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1780.31,
+      "timestamp": "2024-09-24T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1778.93,
+      "timestamp": "2024-09-25T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1776.59,
+      "timestamp": "2024-09-26T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1761.08,
+      "timestamp": "2024-09-27T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1752.24,
+      "timestamp": "2024-09-30T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1759.76,
+      "timestamp": "2024-10-01T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1758.6,
+      "timestamp": "2024-10-02T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1756.36,
+      "timestamp": "2024-10-03T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1752.0,
+      "timestamp": "2024-10-04T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1766.4,
+      "timestamp": "2024-10-07T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1756.56,
+      "timestamp": "2024-10-08T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1756.31,
+      "timestamp": "2024-10-09T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1755.0,
+      "timestamp": "2024-10-10T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1762.79,
+      "timestamp": "2024-10-11T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1759.18,
+      "timestamp": "2024-10-14T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1773.15,
+      "timestamp": "2024-10-15T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1781.19,
+      "timestamp": "2024-10-16T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1772.02,
+      "timestamp": "2024-10-17T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1783.04,
+      "timestamp": "2024-10-18T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1786.87,
+      "timestamp": "2024-10-21T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1786.83,
+      "timestamp": "2024-10-22T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1787.16,
+      "timestamp": "2024-10-23T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1778.44,
+      "timestamp": "2024-10-24T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1786.87,
+      "timestamp": "2024-10-25T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1798.15,
+      "timestamp": "2024-10-28T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1792.79,
+      "timestamp": "2024-10-29T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1799.93,
+      "timestamp": "2024-10-30T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1785.65,
+      "timestamp": "2024-10-31T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1770.74,
+      "timestamp": "2024-11-01T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1786.89,
+      "timestamp": "2024-11-04T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1781.42,
+      "timestamp": "2024-11-05T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1796.97,
+      "timestamp": "2024-11-06T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1803.34,
+      "timestamp": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1781.12,
+      "timestamp": "2024-11-08T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1804.97,
+      "timestamp": "2024-11-11T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1802.89,
+      "timestamp": "2024-11-12T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1791.8,
+      "timestamp": "2024-11-13T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1777.59,
+      "timestamp": "2024-11-14T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1777.84,
+      "timestamp": "2024-11-15T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1759.65,
+      "timestamp": "2024-11-18T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1761.67,
+      "timestamp": "2024-11-19T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1767.17,
+      "timestamp": "2024-11-20T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1768.5,
+      "timestamp": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1761.6,
+      "timestamp": "2024-11-22T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1767.43,
+      "timestamp": "2024-11-25T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1749.56,
+      "timestamp": "2024-11-26T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1754.3,
+      "timestamp": "2024-11-27T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1763.33,
+      "timestamp": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1768.92,
+      "timestamp": "2024-11-29T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1770.97,
+      "timestamp": "2024-12-02T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1773.38,
+      "timestamp": "2024-12-03T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1793.08,
+      "timestamp": "2024-12-04T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1791.79,
+      "timestamp": "2024-12-05T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1802.62,
+      "timestamp": "2024-12-06T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1815.7,
+      "timestamp": "2024-12-09T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1818.74,
+      "timestamp": "2024-12-10T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1832.38,
+      "timestamp": "2024-12-11T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1822.78,
+      "timestamp": "2024-12-12T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1811.44,
+      "timestamp": "2024-12-13T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1811.29,
+      "timestamp": "2024-12-16T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1816.49,
+      "timestamp": "2024-12-17T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1823.21,
+      "timestamp": "2024-12-18T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1824.04,
+      "timestamp": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1796.39,
+      "timestamp": "2024-12-20T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1816.25,
+      "timestamp": "2024-12-23T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1808.19,
+      "timestamp": "2024-12-24T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1821.77,
+      "timestamp": "2024-12-25T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1828.27,
+      "timestamp": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1836.52,
+      "timestamp": "2024-12-27T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1852.49,
+      "timestamp": "2024-12-30T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1843.57,
+      "timestamp": "2024-12-31T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1841.28,
+      "timestamp": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1821.75,
+      "timestamp": "2025-01-03T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1823.31,
+      "timestamp": "2025-01-06T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1828.46,
+      "timestamp": "2025-01-07T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1808.69,
+      "timestamp": "2025-01-08T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1801.88,
+      "timestamp": "2025-01-09T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1792.85,
+      "timestamp": "2025-01-10T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1798.42,
+      "timestamp": "2025-01-13T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1788.04,
+      "timestamp": "2025-01-14T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1738.07,
+      "timestamp": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1768.48,
+      "timestamp": "2025-01-16T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1778.22,
+      "timestamp": "2025-01-17T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1773.53,
+      "timestamp": "2025-01-20T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1770.29,
+      "timestamp": "2025-01-21T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1769.16,
+      "timestamp": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1766.2,
+      "timestamp": "2025-01-23T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1771.2,
+      "timestamp": "2025-01-24T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1778.41,
+      "timestamp": "2025-01-27T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1788.46,
+      "timestamp": "2025-01-28T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1795.73,
+      "timestamp": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1797.13,
+      "timestamp": "2025-01-30T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1789.71,
+      "timestamp": "2025-01-31T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1790.26,
+      "timestamp": "2025-02-03T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1813.61,
+      "timestamp": "2025-02-04T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1809.65,
+      "timestamp": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1805.35,
+      "timestamp": "2025-02-06T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1793.6,
+      "timestamp": "2025-02-07T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1802.18,
+      "timestamp": "2025-02-10T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1795.99,
+      "timestamp": "2025-02-11T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1806.28,
+      "timestamp": "2025-02-12T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1807.84,
+      "timestamp": "2025-02-13T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1807.78,
+      "timestamp": "2025-02-14T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1811.32,
+      "timestamp": "2025-02-17T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1818.98,
+      "timestamp": "2025-02-18T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1817.43,
+      "timestamp": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1811.61,
+      "timestamp": "2025-02-20T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1813.91,
+      "timestamp": "2025-02-21T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1811.35,
+      "timestamp": "2025-02-24T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1802.43,
+      "timestamp": "2025-02-25T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1811.57,
+      "timestamp": "2025-02-26T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1819.07,
+      "timestamp": "2025-02-27T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1826.58,
+      "timestamp": "2025-02-28T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1839.91,
+      "timestamp": "2025-03-03T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1851.56,
+      "timestamp": "2025-03-04T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1858.58,
+      "timestamp": "2025-03-05T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1860.26,
+      "timestamp": "2025-03-06T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1863.91,
+      "timestamp": "2025-03-07T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1872.54,
+      "timestamp": "2025-03-10T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1875.98,
+      "timestamp": "2025-03-11T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1878.43,
+      "timestamp": "2025-03-12T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1878.03,
+      "timestamp": "2025-03-13T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1880.85,
+      "timestamp": "2025-03-14T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1873.9,
+      "timestamp": "2025-03-17T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1872.01,
+      "timestamp": "2025-03-18T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1882.29,
+      "timestamp": "2025-03-19T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1894.96,
+      "timestamp": "2025-03-20T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1899.78,
+      "timestamp": "2025-03-21T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1893.4,
+      "timestamp": "2025-03-24T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1893.79,
+      "timestamp": "2025-03-25T00:00:00.000Z"
+    }
+  ]
+}
