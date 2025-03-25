@@ -1,0 +1,20 @@
+{
+  "base_rates": {
+    "USD/KRW": 1350.0,
+    "EUR/KRW": 1470.0,
+    "JPY/KRW": 9.0,
+    "GBP/KRW": 1740.0,
+    "CAD/KRW": 990.0,
+    "CHF/KRW": 1520.0,
+    "AUD/KRW": 890.0,
+    "NZD/KRW": 820.0,
+    "HKD/KRW": 173.0,
+    "CNY/KRW": 187.0,
+    "SGD/KRW": 1010.0,
+    "THB/KRW": 37.5,
+    "VND/KRW": 0.055,
+    "TWD/KRW": 42.3,
+    "PHP/KRW": 24.2,
+    "PLN/KRW": 345.0
+  }
+}
