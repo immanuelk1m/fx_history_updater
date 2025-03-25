@@ -1,0 +1,38 @@
+name: 통화 히스토리 데이터 2시간 주기 업데이트
+
+on:
+  schedule:
+    # 2시간마다 실행 (매 짝수 시간 0분)
+    - cron: '0 */2 * * *'
+  workflow_dispatch:  # 수동 실행 가능
+
+jobs:
+  update-forex-history:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v3
+
+      - name: Python 3.8 설정
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+          cache: 'pip'
+
+      - name: 의존성 설치
+        run: pip install yfinance pandas numpy
+
+      - name: history 디렉토리 생성
+        run: mkdir -p history
+
+      - name: 통화 히스토리 데이터 업데이트 스크립트 실행
+        run: python scripts/update_forex_history.py
+
+      - name: 'history 디렉토리에 업데이트된 파일 확인'
+        run: ls -la history/
+
+      - name: 변경사항 커밋 및 푸시
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: '통화 히스토리 데이터 자동 업데이트 [skip ci]'
+          file_pattern: 'history/*.json'
