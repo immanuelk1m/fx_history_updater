@@ -5,6 +5,45 @@ from datetime import datetime, timedelta
 import time
 from typing import Dict, Any, List
 import codecs
+import numpy as np
+
+def calculate_trend_prediction(hist_data) -> Dict[str, Any]:
+    """단기/장기 추세를 예측하고 신뢰도를 계산합니다."""
+    closes = hist_data['Close'].values
+    volumes = hist_data['Volume'].values if 'Volume' in hist_data else np.ones_like(closes)
+    
+    # 20일 이동평균 계산
+    ma20 = np.mean(closes[-20:])
+    # 60일 이동평균 계산
+    ma60 = np.mean(closes[-60:])
+    
+    # 최근 가격 변동성
+    recent_volatility = np.std(closes[-10:]) / np.mean(closes[-10:]) * 100
+    
+    # 단기 추세 판단 (2주)
+    short_term_change = (closes[-1] - closes[-10]) / closes[-10] * 100
+    short_term_direction = "상승" if short_term_change > 1 else "하락" if short_term_change < -1 else "횡보"
+    short_term_confidence = min(abs(short_term_change) * 10, 100)  # 변화율에 기반한 신뢰도
+    
+    # 장기 추세 판단 (3개월)
+    long_term_change = (closes[-1] - closes[-60]) / closes[-60] * 100
+    long_term_direction = "상승" if long_term_change > 2 else "하락" if long_term_change < -2 else "횡보"
+    long_term_confidence = min(abs(long_term_change) * 5, 100)  # 변화율에 기반한 신뢰도
+    
+    return {
+        "trend_prediction": {
+            "short_term": {
+                "direction": short_term_direction,
+                "confidence": round(short_term_confidence, 1),
+                "target_period": "2주"
+            },
+            "long_term": {
+                "direction": long_term_direction,
+                "confidence": round(long_term_confidence, 1),
+                "target_period": "3개월"
+            }
+        }
+    }
 
 def load_base_rates() -> Dict[str, float]:
     """base_rates.json 파일에서 통화 기본 환율 정보를 로드합니다."""
@@ -36,6 +75,9 @@ def get_forex_history(symbol: str, days: int = 150) -> Dict[str, Any]:
         # 최근 데이터부터 정렬
         hist = hist.sort_index(ascending=False)
         
+        # 추세 예측 계산
+        trend_data = calculate_trend_prediction(hist)
+        
         # 최대 days일만 가져오기
         count = 0
         for date, row in hist.iterrows():
@@ -56,7 +98,8 @@ def get_forex_history(symbol: str, days: int = 150) -> Dict[str, Any]:
         data = {
             "currency_pair": symbol,
             "lastUpdated": datetime.now().strftime("%Y-%m-%dT%H:%M:%S.000Z"),
-            "rates": daily_rates
+            "rates": daily_rates,
+            **trend_data  # 추세 예측 데이터 추가
         }
         
         return data
@@ -67,7 +110,19 @@ def get_forex_history(symbol: str, days: int = 150) -> Dict[str, Any]:
         return {
             "currency_pair": symbol,
             "lastUpdated": datetime.now().strftime("%Y-%m-%dT%H:%M:%S.000Z"),
-            "rates": []
+            "rates": [],
+            "trend_prediction": {
+                "short_term": {
+                    "direction": "알 수 없음",
+                    "confidence": 0.0,
+                    "target_period": "2주"
+                },
+                "long_term": {
+                    "direction": "알 수 없음",
+                    "confidence": 0.0,
+                    "target_period": "3개월"
+                }
+            }
         }
 
 def save_forex_history(symbol: str, data: Dict[str, Any]) -> None:
