@@ -3,8 +3,24 @@ import os
 import yfinance as yf
 from datetime import datetime
 import time
-from typing import Dict, Any, Optional, Tuple
+from typing import Dict, Any, Optional
 import codecs
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
+def create_session():
+    """재시도 로직이 포함된 요청 세션을 생성합니다."""
+    session = requests.Session()
+    retry = Retry(
+        total=5,
+        backoff_factor=0.5,
+        status_forcelist=[500, 502, 503, 504],
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount('http://', adapter)
+    session.mount('https://', adapter)
+    return session
 
 def load_base_rates() -> Dict[str, float]:
     """base_rates.json 파일에서 통화 기본 환율 정보를 로드합니다."""
@@ -16,118 +32,53 @@ def load_base_rates() -> Dict[str, float]:
     
     return data['base_rates']
 
-def get_ticker_data(symbol: str, retries: int = 3, delay: int = 2) -> Optional[yf.Ticker]:
-    """지정된 재시도 횟수만큼 티커 데이터를 가져오려고 시도합니다."""
-    for attempt in range(retries):
-        try:
-            ticker = yf.Ticker(symbol)
-            # 유효성 검사를 위해 기본 정보 가져오기
-            info = ticker.info
-            if info:
-                return ticker
-        except Exception as e:
-            print(f"Attempt {attempt + 1}/{retries} failed for {symbol}: {str(e)}")
-            if attempt < retries - 1:
-                time.sleep(delay)
-    return None
-
-def calculate_cross_rate(base_currency: str, quote_currency: str) -> Optional[Tuple[float, float, yf.Ticker]]:
-    """USD를 통한 크로스 환율을 계산합니다."""
-    if base_currency == "USD":
-        symbol = f"{quote_currency}USD=X"
-        ticker = get_ticker_data(symbol)
-        if ticker:
-            hist = ticker.history(period="150d")
-            if not hist.empty:
-                return 1 / hist['Close'].iloc[-1], 1 / hist['Close'].iloc[-2], ticker
-    elif quote_currency == "USD":
-        symbol = f"{base_currency}USD=X"
-        ticker = get_ticker_data(symbol)
-        if ticker:
-            hist = ticker.history(period="150d")
-            if not hist.empty:
-                return hist['Close'].iloc[-1], hist['Close'].iloc[-2], ticker
-    else:
-        # Base/USD와 Quote/USD를 가져와서 크로스 환율 계산
-        base_usd = f"{base_currency}USD=X"
-        quote_usd = f"{quote_currency}USD=X"
-        
-        base_ticker = get_ticker_data(base_usd)
-        quote_ticker = get_ticker_data(quote_usd)
-        
-        if base_ticker and quote_ticker:
-            base_hist = base_ticker.history(period="150d")
-            quote_hist = quote_ticker.history(period="150d")
-            
-            if not base_hist.empty and not quote_hist.empty:
-                base_rate = base_hist['Close'].iloc[-1]
-                base_rate_prev = base_hist['Close'].iloc[-2]
-                quote_rate = quote_hist['Close'].iloc[-1]
-                quote_rate_prev = quote_hist['Close'].iloc[-2]
-                
-                cross_rate = base_rate / quote_rate
-                cross_rate_prev = base_rate_prev / quote_rate_prev
-                return cross_rate, cross_rate_prev, base_ticker
-    
-    return None
-
-def get_forex_data(symbol: str) -> Dict[str, Any]:
-    """yfinance를 사용하여 통화 데이터를 가져옵니다."""
+def get_forex_data(symbol: str, session: requests.Session) -> Dict[str, Any]:
+    """환율 데이터를 가져옵니다."""
     try:
-        # 심볼 파싱 (USD/KRW -> USD, KRW)
-        base_currency, quote_currency = symbol.split('/')
+        # 심볼 형식을 yfinance 형식으로 변환
+        yf_symbol = symbol.replace('/', '') + '=X'
         
-        # 직접 환율 시도
-        direct_symbol = f"{base_currency}{quote_currency}=X"
-        ticker = get_ticker_data(direct_symbol)
-        hist = None
+        print(f"Fetching data for {symbol} ({yf_symbol})")
         
-        if ticker:
-            hist = ticker.history(period="150d")
+        # yfinance Ticker 객체 생성 시 세션 전달
+        ticker = yf.Ticker(yf_symbol, session=session)
         
-        # 직접 환율이 실패하면 크로스 환율 시도
-        if hist is None or hist.empty:
-            print(f"직접 환율 데이터를 찾을 수 없어 크로스 환율을 시도합니다: {symbol}")
-            cross_rate_result = calculate_cross_rate(base_currency, quote_currency)
-            
-            if cross_rate_result:
-                last_close, prev_close, ticker = cross_rate_result
-                change_percent = ((last_close - prev_close) / prev_close) * 100
-                
-                # 크로스 환율로 히스토리 데이터 다시 계산
+        # 히스토리 데이터 가져오기 (여러 번 시도)
+        for attempt in range(3):
+            try:
                 hist = ticker.history(period="150d")
-            else:
-                raise ValueError(f"크로스 환율 계산도 실패했습니다: {symbol}")
-        else:
-            last_close = hist['Close'].iloc[-1]
-            prev_close = hist['Close'].iloc[-2]
-            change_percent = ((last_close - prev_close) / prev_close) * 100
+                if not hist.empty and len(hist) > 1:
+                    break
+                print(f"Attempt {attempt + 1}: No data received, retrying...")
+                time.sleep(2)
+            except Exception as e:
+                print(f"Attempt {attempt + 1} failed: {str(e)}")
+                if attempt < 2:  # 마지막 시도가 아니면 계속
+                    time.sleep(2)
+                    continue
+                raise
+        
+        if hist.empty or len(hist) <= 1:
+            raise ValueError(f"No sufficient data available for {symbol}")
+        
+        # 데이터 계산
+        last_close = hist['Close'].iloc[-1]
+        prev_close = hist['Close'].iloc[-2]
+        change_percent = ((last_close - prev_close) / prev_close) * 100
         
         # 기술적 지표 계산
         ma5 = hist['Close'].rolling(window=min(5, len(hist))).mean().iloc[-1]
         ma20 = hist['Close'].rolling(window=min(20, len(hist))).mean().iloc[-1]
         ma60 = hist['Close'].rolling(window=min(60, len(hist))).mean().iloc[-1]
         
-        # 변동성
-        vol_window = min(14, len(hist))
-        volatility = hist['Close'].rolling(window=vol_window).std().iloc[-1]
-        
         # RSI 계산
-        rsi_window = min(14, len(hist) - 1)
-        if rsi_window > 0:
-            delta = hist['Close'].diff().dropna()
-            gain = delta.where(delta > 0, 0).rolling(window=rsi_window).mean().dropna()
-            loss = -delta.where(delta < 0, 0).rolling(window=rsi_window).mean().dropna()
-            
-            if not loss.empty and not gain.empty and loss.iloc[-1] != 0:
-                rs = gain.iloc[-1] / loss.iloc[-1]
-                rsi = 100 - (100 / (1 + rs))
-            else:
-                rsi = 50
-        else:
-            rsi = 50
+        delta = hist['Close'].diff()
+        gain = delta.where(delta > 0, 0).rolling(window=14).mean()
+        loss = -delta.where(delta < 0, 0).rolling(window=14).mean()
+        rs = gain / loss
+        rsi = 100 - (100 / (1 + rs.iloc[-1])) if loss.iloc[-1] != 0 else 50
         
-        # MACD
+        # MACD 계산
         if len(hist) >= 26:
             ema12 = hist['Close'].ewm(span=12, adjust=False).mean()
             ema26 = hist['Close'].ewm(span=26, adjust=False).mean()
@@ -186,22 +137,28 @@ def save_forex_data(symbol: str, data: Dict[str, Any]) -> None:
     filename = symbol.replace('/', '_') + '.json'
     file_path = os.path.join(output_dir, filename)
     
-    with codecs.open(file_path, 'w', encoding='utf-8') as f:
+    with codecs.open(file_path, 'w', encoding='utf-8-sig') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     
     print(f"데이터가 저장되었습니다: {file_path}")
 
 def main():
+    # 재시도 로직이 포함된 세션 생성
+    session = create_session()
+    
+    # 기본 환율 정보 로드
     base_rates = load_base_rates()
     
+    # 각 통화쌍에 대해 데이터 수집 및 저장
     for symbol in base_rates.keys():
-        print(f"Processing {symbol}...")
-        data = get_forex_data(symbol)
+        print(f"\nProcessing {symbol}...")
+        data = get_forex_data(symbol, session)
         
         if data:
             save_forex_data(symbol, data)
         
-        time.sleep(1)
+        # API 호출 제한을 피하기 위한 잠시 대기
+        time.sleep(2)
 
 if __name__ == "__main__":
     main()
