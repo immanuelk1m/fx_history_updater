@@ -1,6 +1,6 @@
 {
   "currency_pair": "EUR/KRW",
-  "lastUpdated": "2025-03-27T08:31:14.000Z",
+  "lastUpdated": "2025-03-27T10:26:42.000Z",
   "rates": [
     {
       "currency_pair": "EUR/KRW",
@@ -749,7 +749,7 @@
     },
     {
       "currency_pair": "EUR/KRW",
-      "rate": 1574.7,
+      "rate": 1577.2,
       "timestamp": "2025-03-27T00:00:00.000Z"
     }
   ],
