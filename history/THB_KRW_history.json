@@ -1,12 +1,7 @@
 {
   "currency_pair": "THB/KRW",
-  "lastUpdated": "2025-03-27T22:23:49.000Z",
+  "lastUpdated": "2025-03-28T01:56:05.000Z",
   "rates": [
-    {
-      "currency_pair": "THB/KRW",
-      "rate": 39.25,
-      "timestamp": "2024-08-29T00:00:00.000Z"
-    },
     {
       "currency_pair": "THB/KRW",
       "rate": 39.31,
@@ -749,19 +744,24 @@
     },
     {
       "currency_pair": "THB/KRW",
-      "rate": 43.25,
+      "rate": 43.08,
       "timestamp": "2025-03-27T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "THB/KRW",
+      "rate": 43.25,
+      "timestamp": "2025-03-28T00:00:00.000Z"
     }
   ],
   "trend_prediction": {
     "short_term": {
-      "direction": "하락",
-      "confidence": 10.2,
+      "direction": "횡보",
+      "confidence": 8.7,
       "target_period": "2주"
     },
     "long_term": {
       "direction": "하락",
-      "confidence": 23.0,
+      "confidence": 17.2,
       "target_period": "3개월"
     }
   }
