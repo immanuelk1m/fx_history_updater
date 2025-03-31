@@ -1,6 +1,6 @@
 {
   "currency_pair": "EUR/KRW",
-  "lastUpdated": "2025-03-30T22:22:18.000Z",
+  "lastUpdated": "2025-03-31T02:01:54.000Z",
   "rates": [
     {
       "currency_pair": "EUR/KRW",
@@ -749,19 +749,19 @@
     },
     {
       "currency_pair": "EUR/KRW",
-      "rate": 1587.3,
-      "timestamp": "2025-03-30T00:00:00.000Z"
+      "rate": 1590.9,
+      "timestamp": "2025-03-31T00:00:00.000Z"
     }
   ],
   "trend_prediction": {
     "short_term": {
       "direction": "횡보",
-      "confidence": 7.6,
+      "confidence": 0.3,
       "target_period": "2주"
     },
     "long_term": {
       "direction": "횡보",
-      "confidence": 2.4,
+      "confidence": 6.3,
       "target_period": "3개월"
     }
   }
