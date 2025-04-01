@@ -1,8 +1,8 @@
 ﻿{
   "symbol": "CHF/KRW",
-  "timestamp": "2025-04-01T00:44:24.000Z",
-  "lastValue": 1669.31,
-  "changePercent": 0.07,
-  "signal_short": "큰 하락 가능",
+  "timestamp": "2025-04-01T03:06:50.000Z",
+  "lastValue": 1662.57,
+  "changePercent": -0.33,
+  "signal_short": "하락 가능",
   "signal_long": "강한 상승 가능"
 }
