@@ -1,6 +1,6 @@
 {
   "currency_pair": "HKD/KRW",
-  "lastUpdated": "2025-04-02T16:32:51.000Z",
+  "lastUpdated": "2025-04-02T18:34:30.000Z",
   "rates": [
     {
       "currency_pair": "HKD/KRW",
@@ -749,7 +749,7 @@
     },
     {
       "currency_pair": "HKD/KRW",
-      "rate": 187.44,
+      "rate": 187.7,
       "timestamp": "2025-04-02T00:00:00.000Z"
     }
   ],
