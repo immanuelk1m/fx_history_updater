@@ -1,8 +1,8 @@
 ﻿{
   "symbol": "EUR/KRW",
-  "timestamp": "2025-04-04T12:15:19.000Z",
-  "lastValue": 1597.9,
-  "changePercent": -0.05,
+  "timestamp": "2025-04-04T14:01:16.000Z",
+  "lastValue": 1601.5,
+  "changePercent": 0.18,
   "signal_short": "하락 가능",
   "signal_long": "강한 상승 가능"
 }
