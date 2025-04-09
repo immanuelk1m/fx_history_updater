@@ -1,8 +1,8 @@
 ﻿{
   "symbol": "AUD/KRW",
-  "timestamp": "2025-04-09T14:01:39.000Z",
-  "lastValue": 891.23,
-  "changePercent": 1.1,
-  "signal_short": "상승 가능",
+  "timestamp": "2025-04-09T16:10:14.000Z",
+  "lastValue": 884.31,
+  "changePercent": 0.31,
+  "signal_short": "큰 상승 가능",
   "signal_long": "하락 가능"
 }
