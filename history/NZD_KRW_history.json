@@ -1,6 +1,6 @@
 {
   "currency_pair": "NZD/KRW",
-  "lastUpdated": "2025-04-10T06:35:17.000Z",
+  "lastUpdated": "2025-04-10T08:32:51.000Z",
   "rates": [
     {
       "currency_pair": "NZD/KRW",
@@ -749,7 +749,7 @@
     },
     {
       "currency_pair": "NZD/KRW",
-      "rate": 829.6,
+      "rate": 828.8,
       "timestamp": "2025-04-10T00:00:00.000Z"
     }
   ],
