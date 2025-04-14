@@ -1,6 +1,6 @@
 {
   "currency_pair": "CHF/KRW",
-  "lastUpdated": "2025-04-14T04:29:36.000Z",
+  "lastUpdated": "2025-04-14T06:36:46.000Z",
   "rates": [
     {
       "currency_pair": "CHF/KRW",
@@ -749,7 +749,7 @@
     },
     {
       "currency_pair": "CHF/KRW",
-      "rate": 1747.17,
+      "rate": 1748.8,
       "timestamp": "2025-04-14T00:00:00.000Z"
     }
   ],
