@@ -1,6 +1,6 @@
 {
   "currency_pair": "AUD/KRW",
-  "lastUpdated": "2025-04-15T14:26:06.000Z",
+  "lastUpdated": "2025-04-15T16:30:46.000Z",
   "rates": [
     {
       "currency_pair": "AUD/KRW",
@@ -749,7 +749,7 @@
     },
     {
       "currency_pair": "AUD/KRW",
-      "rate": 909.03,
+      "rate": 906.64,
       "timestamp": "2025-04-15T00:00:00.000Z"
     }
   ],
