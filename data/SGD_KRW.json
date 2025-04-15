@@ -1,8 +1,8 @@
 ﻿{
   "symbol": "SGD/KRW",
-  "timestamp": "2025-04-14T22:08:14.000Z",
-  "lastValue": 1078.04,
-  "changePercent": -1.36,
+  "timestamp": "2025-04-15T00:40:32.000Z",
+  "lastValue": 1082.59,
+  "changePercent": 0.75,
   "signal_short": "상승 가능",
-  "signal_long": "강한 상승 가능"
+  "signal_long": "하락 가능"
 }
