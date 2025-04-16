@@ -1,6 +1,6 @@
 {
   "currency_pair": "CAD/KRW",
-  "lastUpdated": "2025-04-16T08:34:05.000Z",
+  "lastUpdated": "2025-04-16T10:28:59.000Z",
   "rates": [
     {
       "currency_pair": "CAD/KRW",
@@ -749,7 +749,7 @@
     },
     {
       "currency_pair": "CAD/KRW",
-      "rate": 1021.12,
+      "rate": 1018.41,
       "timestamp": "2025-04-16T00:00:00.000Z"
     }
   ],
