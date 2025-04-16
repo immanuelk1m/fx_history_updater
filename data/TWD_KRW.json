@@ -1,8 +1,8 @@
 ﻿{
   "symbol": "TWD/KRW",
-  "timestamp": "2025-04-16T18:12:27.000Z",
-  "lastValue": 43.57,
-  "changePercent": -0.63,
+  "timestamp": "2025-04-16T20:10:13.000Z",
+  "lastValue": 43.63,
+  "changePercent": -0.5,
   "signal_short": "상승 가능",
   "signal_long": "하락 가능"
 }
