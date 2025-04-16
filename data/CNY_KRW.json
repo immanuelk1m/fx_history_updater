@@ -1,8 +1,8 @@
 ﻿{
   "symbol": "CNY/KRW",
-  "timestamp": "2025-04-16T20:09:55.000Z",
-  "lastValue": 193.69,
-  "changePercent": -0.22,
-  "signal_short": "상승 가능",
+  "timestamp": "2025-04-16T22:01:44.000Z",
+  "lastValue": NaN,
+  "changePercent": NaN,
+  "signal_short": "횡보",
   "signal_long": "하락 가능"
 }
