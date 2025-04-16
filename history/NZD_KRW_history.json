@@ -1,12 +1,7 @@
 {
   "currency_pair": "NZD/KRW",
-  "lastUpdated": "2025-04-15T22:25:09.000Z",
+  "lastUpdated": "2025-04-16T02:00:40.000Z",
   "rates": [
-    {
-      "currency_pair": "NZD/KRW",
-      "rate": 817.28,
-      "timestamp": "2024-09-17T00:00:00.000Z"
-    },
     {
       "currency_pair": "NZD/KRW",
       "rate": 819.32,
@@ -749,19 +744,24 @@
     },
     {
       "currency_pair": "NZD/KRW",
-      "rate": 840.5,
+      "rate": 832.33,
       "timestamp": "2025-04-15T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "NZD/KRW",
+      "rate": 842.7,
+      "timestamp": "2025-04-16T00:00:00.000Z"
     }
   ],
   "trend_prediction": {
     "short_term": {
-      "direction": "상승",
-      "confidence": 14.5,
+      "direction": "횡보",
+      "confidence": 7.4,
       "target_period": "2주"
     },
     "long_term": {
-      "direction": "상승",
-      "confidence": 10.9,
+      "direction": "횡보",
+      "confidence": 6.8,
       "target_period": "3개월"
     }
   }
