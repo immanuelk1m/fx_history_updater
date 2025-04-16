@@ -1,8 +1,8 @@
 ﻿{
   "symbol": "THB/KRW",
-  "timestamp": "2025-04-16T06:13:04.000Z",
-  "lastValue": 42.85,
-  "changePercent": 1.37,
+  "timestamp": "2025-04-16T08:12:45.000Z",
+  "lastValue": 42.83,
+  "changePercent": 1.32,
   "signal_short": "상승 가능",
   "signal_long": "하락 가능"
 }
