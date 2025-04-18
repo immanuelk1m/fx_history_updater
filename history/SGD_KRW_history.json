@@ -1,6 +1,6 @@
 {
   "currency_pair": "SGD/KRW",
-  "lastUpdated": "2025-04-18T12:49:25.000Z",
+  "lastUpdated": "2025-04-18T14:23:19.000Z",
   "rates": [
     {
       "currency_pair": "SGD/KRW",
@@ -749,7 +749,7 @@
     },
     {
       "currency_pair": "SGD/KRW",
-      "rate": 1080.47,
+      "rate": 1085.0,
       "timestamp": "2025-04-18T00:00:00.000Z"
     }
   ],
