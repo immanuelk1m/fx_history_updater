@@ -1,6 +1,6 @@
 {
   "currency_pair": "GBP/KRW",
-  "lastUpdated": "2025-04-21T12:50:08.000Z",
+  "lastUpdated": "2025-04-21T14:24:27.000Z",
   "rates": [
     {
       "currency_pair": "GBP/KRW",
@@ -749,7 +749,7 @@
     },
     {
       "currency_pair": "GBP/KRW",
-      "rate": 1896.38,
+      "rate": 1899.47,
       "timestamp": "2025-04-21T00:00:00.000Z"
     }
   ],
