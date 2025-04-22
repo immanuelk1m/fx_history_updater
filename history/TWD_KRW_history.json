@@ -1,6 +1,6 @@
 {
   "currency_pair": "TWD/KRW",
-  "lastUpdated": "2025-04-22T03:08:49.000Z",
+  "lastUpdated": "2025-04-22T04:29:51.000Z",
   "rates": [
     {
       "currency_pair": "TWD/KRW",
@@ -749,7 +749,7 @@
     },
     {
       "currency_pair": "TWD/KRW",
-      "rate": 43.71,
+      "rate": 43.67,
       "timestamp": "2025-04-22T00:00:00.000Z"
     }
   ],
