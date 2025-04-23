@@ -1,12 +1,7 @@
 {
   "currency_pair": "CAD/KRW",
-  "lastUpdated": "2025-04-22T22:24:58.000Z",
+  "lastUpdated": "2025-04-23T02:00:17.000Z",
   "rates": [
-    {
-      "currency_pair": "CAD/KRW",
-      "rate": 978.82,
-      "timestamp": "2024-09-20T00:00:00.000Z"
-    },
     {
       "currency_pair": "CAD/KRW",
       "rate": 981.53,
@@ -749,19 +744,24 @@
     },
     {
       "currency_pair": "CAD/KRW",
-      "rate": 1032.0,
+      "rate": 1027.52,
       "timestamp": "2025-04-22T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "CAD/KRW",
+      "rate": 1033.39,
+      "timestamp": "2025-04-23T00:00:00.000Z"
     }
   ],
   "trend_prediction": {
     "short_term": {
       "direction": "횡보",
-      "confidence": 1.2,
+      "confidence": 0.9,
       "target_period": "2주"
     },
     "long_term": {
       "direction": "횡보",
-      "confidence": 5.3,
+      "confidence": 9.6,
       "target_period": "3개월"
     }
   }
