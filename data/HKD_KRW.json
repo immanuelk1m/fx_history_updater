@@ -1,8 +1,8 @@
 ﻿{
   "symbol": "HKD/KRW",
-  "timestamp": "2025-04-28T06:21:09.000Z",
-  "lastValue": 185.26,
-  "changePercent": 0.51,
+  "timestamp": "2025-04-28T08:30:14.000Z",
+  "lastValue": 185.74,
+  "changePercent": 0.77,
   "signal_short": "상승 가능",
-  "signal_long": "강한 하락 가능"
+  "signal_long": "하락 가능"
 }
