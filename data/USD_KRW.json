@@ -1,8 +1,8 @@
 ﻿{
   "symbol": "USD/KRW",
-  "timestamp": "2025-04-28T16:10:10.000Z",
-  "lastValue": 1430.06,
-  "changePercent": 0.25,
+  "timestamp": "2025-04-28T18:12:09.000Z",
+  "lastValue": 1434.6,
+  "changePercent": 0.32,
   "signal_short": "상승 가능",
-  "signal_long": "하락 가능"
+  "signal_long": "강한 하락 가능"
 }
