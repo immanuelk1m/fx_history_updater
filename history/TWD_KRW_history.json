@@ -1,6 +1,6 @@
 {
   "currency_pair": "TWD/KRW",
-  "lastUpdated": "2025-04-27T22:23:47.000Z",
+  "lastUpdated": "2025-04-28T02:04:39.000Z",
   "rates": [
     {
       "currency_pair": "TWD/KRW",
@@ -749,19 +749,19 @@
     },
     {
       "currency_pair": "TWD/KRW",
-      "rate": 44.13,
-      "timestamp": "2025-04-27T00:00:00.000Z"
+      "rate": 44.28,
+      "timestamp": "2025-04-28T00:00:00.000Z"
     }
   ],
   "trend_prediction": {
     "short_term": {
       "direction": "횡보",
-      "confidence": 0.9,
+      "confidence": 5.4,
       "target_period": "2주"
     },
     "long_term": {
       "direction": "하락",
-      "confidence": 24.4,
+      "confidence": 25.9,
       "target_period": "3개월"
     }
   }
