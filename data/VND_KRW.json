@@ -1,8 +1,8 @@
 ﻿{
   "symbol": "VND/KRW",
-  "timestamp": "2025-04-29T14:02:13.000Z",
-  "lastValue": 0.06,
-  "changePercent": -0.14,
-  "signal_short": "상승 가능",
-  "signal_long": "강한 하락 가능"
+  "timestamp": "2025-04-29T16:11:03.000Z",
+  "lastValue": NaN,
+  "changePercent": NaN,
+  "signal_short": "횡보",
+  "signal_long": "하락 가능"
 }
