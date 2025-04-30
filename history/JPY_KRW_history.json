@@ -1,12 +1,7 @@
 {
   "currency_pair": "JPY/KRW",
-  "lastUpdated": "2025-04-29T22:24:37.000Z",
+  "lastUpdated": "2025-04-30T02:01:16.000Z",
   "rates": [
-    {
-      "currency_pair": "JPY/KRW",
-      "rate": 9.05,
-      "timestamp": "2024-09-27T00:00:00.000Z"
-    },
     {
       "currency_pair": "JPY/KRW",
       "rate": 9.17,
@@ -749,19 +744,24 @@
     },
     {
       "currency_pair": "JPY/KRW",
-      "rate": 10.04,
+      "rate": 10.1,
       "timestamp": "2025-04-29T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "JPY/KRW",
+      "rate": 10.03,
+      "timestamp": "2025-04-30T00:00:00.000Z"
     }
   ],
   "trend_prediction": {
     "short_term": {
-      "direction": "상승",
-      "confidence": 17.6,
+      "direction": "횡보",
+      "confidence": 5.5,
       "target_period": "2주"
     },
     "long_term": {
       "direction": "횡보",
-      "confidence": 5.7,
+      "confidence": 9.4,
       "target_period": "3개월"
     }
   }
