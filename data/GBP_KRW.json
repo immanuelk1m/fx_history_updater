@@ -1,8 +1,8 @@
 ﻿{
   "symbol": "GBP/KRW",
-  "timestamp": "2025-05-02T03:02:33.000Z",
-  "lastValue": 1901.0,
-  "changePercent": 0.21,
+  "timestamp": "2025-05-02T04:10:52.000Z",
+  "lastValue": 1890.34,
+  "changePercent": -0.35,
   "signal_short": "하락 가능",
   "signal_long": "강한 상승 가능"
 }
