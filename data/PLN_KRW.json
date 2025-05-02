@@ -1,8 +1,8 @@
 ﻿{
   "symbol": "PLN/KRW",
-  "timestamp": "2025-05-02T12:16:11.000Z",
-  "lastValue": NaN,
-  "changePercent": NaN,
-  "signal_short": "횡보",
-  "signal_long": "상승 가능"
+  "timestamp": "2025-05-02T14:09:30.000Z",
+  "lastValue": 370.67,
+  "changePercent": -1.83,
+  "signal_short": "하락 가능",
+  "signal_long": "강한 상승 가능"
 }
