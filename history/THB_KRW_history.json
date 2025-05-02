@@ -1,6 +1,6 @@
 {
   "currency_pair": "THB/KRW",
-  "lastUpdated": "2025-05-02T02:02:39.000Z",
+  "lastUpdated": "2025-05-02T06:36:26.000Z",
   "rates": [
     {
       "currency_pair": "THB/KRW",
@@ -749,7 +749,7 @@
     },
     {
       "currency_pair": "THB/KRW",
-      "rate": 42.77,
+      "rate": 42.44,
       "timestamp": "2025-05-02T00:00:00.000Z"
     }
   ],
