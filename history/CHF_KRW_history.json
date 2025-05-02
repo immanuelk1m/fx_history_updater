@@ -1,12 +1,7 @@
 {
   "currency_pair": "CHF/KRW",
-  "lastUpdated": "2025-05-01T16:32:09.000Z",
+  "lastUpdated": "2025-05-02T02:02:26.000Z",
   "rates": [
-    {
-      "currency_pair": "CHF/KRW",
-      "rate": 1556.31,
-      "timestamp": "2024-10-01T00:00:00.000Z"
-    },
     {
       "currency_pair": "CHF/KRW",
       "rate": 1565.26,
@@ -749,19 +744,24 @@
     },
     {
       "currency_pair": "CHF/KRW",
-      "rate": 1727.45,
+      "rate": 1723.46,
       "timestamp": "2025-05-01T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "CHF/KRW",
+      "rate": 1727.55,
+      "timestamp": "2025-05-02T00:00:00.000Z"
     }
   ],
   "trend_prediction": {
     "short_term": {
       "direction": "횡보",
-      "confidence": 5.0,
+      "confidence": 1.1,
       "target_period": "2주"
     },
     "long_term": {
       "direction": "하락",
-      "confidence": 15.8,
+      "confidence": 11.6,
       "target_period": "3개월"
     }
   }

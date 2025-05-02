@@ -1,12 +1,7 @@
 {
   "currency_pair": "GBP/KRW",
-  "lastUpdated": "2025-05-01T16:32:04.000Z",
+  "lastUpdated": "2025-05-02T02:02:22.000Z",
   "rates": [
-    {
-      "currency_pair": "GBP/KRW",
-      "rate": 1759.76,
-      "timestamp": "2024-10-01T00:00:00.000Z"
-    },
     {
       "currency_pair": "GBP/KRW",
       "rate": 1758.6,
@@ -749,19 +744,24 @@
     },
     {
       "currency_pair": "GBP/KRW",
-      "rate": 1905.07,
+      "rate": 1896.93,
       "timestamp": "2025-05-01T00:00:00.000Z"
+    },
+    {
+      "currency_pair": "GBP/KRW",
+      "rate": 1903.53,
+      "timestamp": "2025-05-02T00:00:00.000Z"
     }
   ],
   "trend_prediction": {
     "short_term": {
-      "direction": "횡보",
-      "confidence": 3.9,
+      "direction": "상승",
+      "confidence": 11.7,
       "target_period": "2주"
     },
     "long_term": {
       "direction": "하락",
-      "confidence": 16.3,
+      "confidence": 10.7,
       "target_period": "3개월"
     }
   }
