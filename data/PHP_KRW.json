@@ -1,8 +1,8 @@
 ﻿{
   "symbol": "PHP/KRW",
-  "timestamp": "2025-05-02T18:12:22.000Z",
-  "lastValue": 25.2,
-  "changePercent": -99.97,
-  "signal_short": "큰 상승 가능",
-  "signal_long": "강한 하락 가능"
+  "timestamp": "2025-05-02T20:10:23.000Z",
+  "lastValue": 25.13,
+  "changePercent": -1.57,
+  "signal_short": "하락 가능",
+  "signal_long": "강한 상승 가능"
 }
