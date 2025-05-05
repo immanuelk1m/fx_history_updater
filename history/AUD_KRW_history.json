@@ -1,6 +1,6 @@
 {
   "currency_pair": "AUD/KRW",
-  "lastUpdated": "2025-05-04T22:24:03.000Z",
+  "lastUpdated": "2025-05-05T02:06:42.000Z",
   "rates": [
     {
       "currency_pair": "AUD/KRW",
@@ -749,19 +749,19 @@
     },
     {
       "currency_pair": "AUD/KRW",
-      "rate": 901.61,
-      "timestamp": "2025-05-04T00:00:00.000Z"
+      "rate": 904.58,
+      "timestamp": "2025-05-05T00:00:00.000Z"
     }
   ],
   "trend_prediction": {
     "short_term": {
       "direction": "횡보",
-      "confidence": 8.2,
+      "confidence": 4.1,
       "target_period": "2주"
     },
     "long_term": {
       "direction": "횡보",
-      "confidence": 2.2,
+      "confidence": 1.0,
       "target_period": "3개월"
     }
   }
