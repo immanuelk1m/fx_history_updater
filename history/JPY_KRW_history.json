@@ -1,6 +1,6 @@
 {
   "currency_pair": "JPY/KRW",
-  "lastUpdated": "2025-05-05T04:31:39.000Z",
+  "lastUpdated": "2025-05-05T06:37:19.000Z",
   "rates": [
     {
       "currency_pair": "JPY/KRW",
@@ -749,7 +749,7 @@
     },
     {
       "currency_pair": "JPY/KRW",
-      "rate": 9.65,
+      "rate": 9.57,
       "timestamp": "2025-05-05T00:00:00.000Z"
     }
   ],
