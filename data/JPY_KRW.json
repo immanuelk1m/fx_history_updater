@@ -1,8 +1,8 @@
 ﻿{
   "symbol": "JPY/KRW",
-  "timestamp": "2025-05-06T14:09:25.000Z",
-  "lastValue": 9.67,
-  "changePercent": 0.02,
+  "timestamp": "2025-05-06T16:10:39.000Z",
+  "lastValue": 9.62,
+  "changePercent": -0.49,
   "signal_short": "상승 가능",
   "signal_long": "하락 가능"
 }
