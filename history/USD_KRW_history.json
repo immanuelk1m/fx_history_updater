@@ -1,6 +1,6 @@
 {
   "currency_pair": "USD/KRW",
-  "lastUpdated": "2025-05-07T06:36:40.000Z",
+  "lastUpdated": "2025-05-07T08:35:09.000Z",
   "rates": [
     {
       "currency_pair": "USD/KRW",
@@ -749,7 +749,7 @@
     },
     {
       "currency_pair": "USD/KRW",
-      "rate": 1396.22,
+      "rate": 1393.1,
       "timestamp": "2025-05-07T00:00:00.000Z"
     }
   ],
